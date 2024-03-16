@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:url("./img/backgroud\ 3.jpg");
+    background-size: cover;
+    
+}
+
+header{
+    display: flex;
+    height: 100px;
+    background: rgb(36, 36, 36);
+    
+}
+
+header h1{
+    color: #fff;
+    line-height: 100px;
+    font-size: 60px;
+    margin-right: -300px;
+}
+
+header .timkiem{
+    line-height: 100px;
+    margin-right: 500px;
+    margin-left: 100px;
+    justify-content: space-evenly;
+}
+
+header .timkiem input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(26, 22, 22);
+}
+
+
+header .timkiem button{
+    width: 70px;
+    height: 38px;
+    border-radius: 5px;
+    margin-right: -130px;
+    background: rgb(255, 255, 255);
+    
+}
+
+header .timkiem a{
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+
+header .login{
+    margin-left: 800px;
+}
+
+header .login a{
+    color: #fff;
+    line-height: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 15px;
+    background: red;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+
+header .login a:hover{
+    background: rgb(39, 37, 37);
+}
+
+nav{
+    background: rgb(36, 36, 36);
+    height: 50px;
+    margin-top: 0.5px;
+}
+
+nav .menu{
+    display: flex;
+    margin-left: 600px;
+    list-style: none;
+
+    
+}
+
+nav .menu a{
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: 5px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+nav .menu a:hover {
+    color: red;
+    
+}
+
+article{
+    height: 1700px;
+    background: rgb(36, 36, 36);
+    width: 1600px;
+    margin: 0px auto;
+    margin-top: 1px;
+    
+}
+
+article .list2 a{
+    display: list-item;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+article .list {
+    display: flex;
+    list-style:none ;
+}
+
+article .list2 {
+    margin-left: 65px;
+}
+
+article .list2 img{
+    margin-top: 20px;
+}
+
+article .list2 a:hover{
+    color: aqua;
+}
+
+article .list2 img:hover{
+    transform: scale(1.05);
+}
+
+article .list3 a{
+    display: list-item;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    width: 313px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+article .list1 {
+    display: flex;
+    list-style:none ;
+    margin-top: 40px;
+}
+
+article .list3 {
+    margin-left: 65px;
+}
+
+article .list3 img{
+    margin-top: 10px;
+    width: 340px;
+    height: 260px;
+    margin: 0px auto;
+}
+
+article .list3 a:hover{
+    color: aqua;
+}
+
+article .list3 img:hover{
+    transform: scale(1.05);
+}
+
+article .list3 img a{
+    margin-right: 10px;
+}
+
+.footer{
+    background-color:rgb(39, 37, 37);
+    width: 100%;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    margin-top: 1px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+.footer .contact{
+    margin-top: 40px;
+    padding:10px 20px;
+    margin-left: 100px;
+}
+.footer .contact h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.footer .contact a img{
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.footer .diachi{
+    margin-top:40px;
+    width:600px;
+}
+.footer .diachi h2{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer .diachi span{
+    padding:20px 0;
+    color: #fff;
+}
+.footer-bottom{
+    background-color: dimgray;
+    width: 100%;
+    height:20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+
+
+
+
